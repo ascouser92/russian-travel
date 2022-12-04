@@ -1,0 +1,19 @@
+.lead__intro {
+    width: 690px;
+    padding: 92px 0;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1020px) {
+    .lead__intro {
+        width: 93.75vw;
+        margin: 0 auto;
+    }
+}
+    
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .lead__intro {
+        width: 90%;
+        margin: auto;
+        padding: 64px 0;
+    }
+}

@@ -1,0 +1,17 @@
+.lead__section-subtitle {
+    max-width: 70%;
+    font-size: 30px;
+    line-height: 2rem;
+    width: 640px;
+    align-self: center;
+    margin: 32px auto 64px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .lead__section-subtitle {
+        max-width: 90%;
+        font-size: 1em;
+        line-height: 125%;
+        margin: 16px auto 40px;
+    }
+}

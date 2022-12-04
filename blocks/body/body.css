@@ -1,0 +1,24 @@
+.body {
+    background-color: #2a2a2a;
+    font-family: 'Inter';
+    overflow-x: hidden;
+    margin: 0;
+    max-width: 1280px;
+    min-width: 320px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+}
+
+@font-face {
+    font-family: 'Inter';
+    font-weight: 100 900;
+    font-display: swap;
+    font-style: normal;
+    src: url("../../fonts/Inter.var.woff2") format("woff2"),
+         url("../../fonts/Inter-V.ttf") format("truetype");
+}
+
