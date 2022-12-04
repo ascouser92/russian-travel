@@ -13,8 +13,8 @@
         <header class="header">
             <img class="logo header__logo" src="images/header-logo.svg" alt="Логотип в виде контуар России">
             <div class="lang-links header__lang-links">
-                <span class="lang-link lang-link_header_underline">Ru</span>
-                <span class="lang-link header__lang-links__lang-link">En</span>
+                <span class="lang-link lang-link_header_active">Ru</span>
+                <span class="lang-link lang-link_header_non-active">En</span>
             </div>
         </header>
         <main class="content">
@@ -23,9 +23,9 @@
                 <p class="section-subtitle lead__section-subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
                 <img class="image lead__image" src="images/lead-polka.jpg" alt="Плацкарт поезда">
                 <span class="caption lead__caption">ваша полка — верхняя</span>
-                <section class="intro lead__intro">
-                    <h2 class="section-title lead__intro__section-title">Чего мы там не видели?</h2>
-                    <p class="paragraph lead__intro__paragraphs">
+                <div class="intro">
+                    <h2 class="section-title intro__section-title">Чего мы там не видели?</h2>
+                    <p class="paragraph intro__paragraph">
                         По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют
                         провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле,
                         Россия — это целая вселенная с ласковым морем юга, густыми лесами Саян и суровыми
@@ -35,14 +35,14 @@
                         километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные
                         вашего отпуска.
                     </p>
-                    <ul class="list lead__intro__list">
-                        <li class="item lead__intro__item">Часовых поясов 11</li>
-                        <li class="item lead__intro__item">Объектов природного наследия ЮНЕСКО 12</li>
-                        <li class="item lead__intro__item">Объектов культурного наследия ЮНЕСКО 16</li>
-                        <li class="item lead__intro__item">Природных заповедников 105</li>
-                        <li class="item lead__intro__item">Аэропортов 241</li>
+                    <ul class="list intro__list">
+                        <li class="item intro__list__item">Часовых поясов 11</li>
+                        <li class="item intro__list__item">Объектов природного наследия ЮНЕСКО 12</li>
+                        <li class="item intro__list__item">Объектов культурного наследия ЮНЕСКО 16</li>
+                        <li class="item intro__list__item">Природных заповедников 105</li>
+                        <li class="item intro__list__item">Аэропортов 241</li>
                     </ul> 
-                </section>
+                </div>
             </section>
             <section class="photo-grid">
                 <img class="item photo-grid__item" src="images/photo-grid-train.jpg" alt="Фото из окна поезда">
@@ -78,7 +78,7 @@
                             волн Балтийского моря с другой. Уникальная природная
                             зона на краю российского анклава.
                         </p>
-                        <p class="paragraph place__paragraphs__second-paragraph">
+                        <p class="second-paragraph place__paragraphs__second-paragraph">
                             На этом Калининградская область не заканчивается. Для
                             путешественника и исследователя там же по соседству — самая
                             западная точка России, Балтийская коса, — и немецкое наследие
@@ -105,7 +105,7 @@
                             тундра, от которой на юг — тайга, а на север — Ледовитый океан,
                             прикидывающийся Баренцевымморем.
                         </p>
-                        <p class="second-paragraph place__second-paragraph">
+                        <p class="second-paragraph place__paragraphs__second-paragraph">
                             Возможно, вы смотрели Звягинцева и даже слышали историю арктического
                             фестиваля в Териберке. Возможно, слово «Хибины» не осталось под снегом
                             школьных воспоминаний об уроках географии. Возможно, вы не интересовались
@@ -118,8 +118,8 @@
                 <div class="place">
                     <h2 class="section-title place__section-title">Алтай</h2>
                     <div class="website place__website">
-                        <p class="url-heading website__url-heading">URL</p>
-                        <a class="link website__link"
+                        <p class="url-heading place__website__url-heading">URL</p>
+                        <a class="link place__website__link"
                         href="https://www.youtube.com/watch?v=7ZEsoV7kWAQ"
                         target="_blank">
                         Youtube
