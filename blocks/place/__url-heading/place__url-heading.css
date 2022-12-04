@@ -1,4 +1,4 @@
-.place__website__url-heading {
+.place__url-heading {
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
@@ -8,7 +8,7 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1020px) {
-    .place__website__url-heading {
+    .place__url-heading {
         margin-top: 0;
     }
 }
