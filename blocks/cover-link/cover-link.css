@@ -1,6 +1,11 @@
-.cover__link {
+.cover-link {
     width: 100%;
     grid-column: 1/4;
     grid-row: 1/4;
     text-decoration: none;
+}
+
+.cover-link:hover {
+    opacity: .8;
+    transition: 1s linear;
 }

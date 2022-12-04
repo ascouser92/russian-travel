@@ -1,4 +1,4 @@
-.footer__list__item {
+.footer__item {
     display: flex;
     flex-direction: row;
     padding: 0;
@@ -7,7 +7,7 @@
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
-    .footer__list__item {
+    .footer__item {
         flex-direction: column;
         padding: 0%;
     }
