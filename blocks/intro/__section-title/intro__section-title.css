@@ -1,6 +1,12 @@
 .intro__section-title {
-    font-size: 3.375em;
-    line-height: 3.625rem;
-    font-style: normal;
-    width: 100%;
+    font-size: 54px;
+    line-height: 107%;
+    margin: 0;
+}
+
+@media screen and (min-width: 200px) and (max-width: 767px){
+    .intro__section-title {
+        font-size: 32px;
+        line-height: 109%;
+    }
 }

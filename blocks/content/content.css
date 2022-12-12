@@ -1,15 +1,15 @@
-.cover {
-    width: 92.5vw;
+.content {
+    margin: 0 auto;
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
-    .cover {
+    .content {
         width: 100%;
     }
 }
 
-@media screen and (min-width: 200px) and (max-width: 767px){
-    .cover {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .content {
         width: 100%;
     }
 }
