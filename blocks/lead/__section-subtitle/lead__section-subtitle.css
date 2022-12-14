@@ -2,6 +2,7 @@
     width: 640px;
     margin: 32px auto 64px;
     text-align: center;
+    font-size: 32px;
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
