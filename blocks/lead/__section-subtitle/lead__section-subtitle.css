@@ -2,7 +2,8 @@
     width: 640px;
     margin: 32px auto 64px;
     text-align: center;
-    font-size: 32px;
+    font-size: 30px;
+    line-height: 120%;
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
@@ -13,9 +14,10 @@
 
 @media screen and (min-width: 200px) and (max-width: 767px){
     .lead__section-subtitle {
-        width: 90%;
-        font-size: 16px;
+        max-width: 90%;
+        font-size: 5vw;
         line-height: 125%;
         margin: 16px auto 40px;
+        text-align: center;
     }
 }

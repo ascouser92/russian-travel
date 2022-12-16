@@ -1,5 +1,5 @@
 .place {
-    width: 76.875vw;
+    width: 76.875%;
     margin: 0 auto;
     display: grid;
     grid-template-columns: 460px auto;

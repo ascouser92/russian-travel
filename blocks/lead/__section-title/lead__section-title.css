@@ -9,7 +9,7 @@
 @media screen and (min-width: 200px) and (max-width: 767px){ 
     .lead__section-title {
         width: 90%;
-        font-size: 40px;
+        font-size: 12vw;
         line-height: 110%;
     }
 }
