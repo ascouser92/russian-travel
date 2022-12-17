@@ -6,13 +6,13 @@
     line-height: 120%;
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1279px) {
+@media screen and (max-width: 1024px) {
     .lead__section-subtitle {
         margin-bottom: 56px;
     }
 }
 
-@media screen and (min-width: 200px) and (max-width: 767px){
+@media screen and (max-width: 635px) {
     .lead__section-subtitle {
         max-width: 90%;
         font-size: 5vw;

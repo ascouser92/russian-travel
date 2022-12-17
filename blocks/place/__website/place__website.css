@@ -4,7 +4,7 @@
     align-self: flex-end;
 }
 
-@media screen and (min-width: 200px) and (max-width: 767px){ 
+@media screen and (max-width: 635px) { 
     .place__website {
         width: 90%;
         margin: 0 auto;

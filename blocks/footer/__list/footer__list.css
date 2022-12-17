@@ -6,7 +6,7 @@
     list-style-type: none;
 }
 
-@media screen and (min-width: 200px) and (max-width: 767px){
+@media screen and (max-width: 720px) {
     .footer__list {
         display: grid;
         grid-template-rows: repeat(5, 1fr);
